@@ -1,0 +1,179 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:background="@drawable/border"
+    >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/docProfileImg"
+        android:background="@drawable/ic_launcher"
+        android:layout_alignParentLeft="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctorid"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/userid"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/doctorName"
+        android:text="Doctor Name"
+        android:layout_toRightOf="@id/docProfileImg"
+        android:layout_marginTop="2dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hospitalName"
+        android:text="Hospital Name"
+        android:layout_toRightOf="@id/docProfileImg"
+        android:layout_below="@id/doctorName"
+        android:layout_marginLeft="4dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/availableIcon"
+        android:background="@drawable/ic_launcher"
+        android:layout_below="@id/hospitalName"
+        android:layout_toRightOf="@id/docProfileImg"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/availibility"
+        android:text="Available Today"
+        android:layout_below="@id/hospitalName"
+        android:layout_toRightOf="@id/availableIcon"
+        android:layout_marginTop="4dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/expIcon"
+        android:layout_toRightOf="@id/doctorName"
+        android:background="@drawable/ic_launcher"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/experience"
+        android:text="Exp in Yrs"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/expIcon"
+        android:layout_marginTop="4dp"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/distanceIcon"
+        android:layout_toRightOf="@id/hospitalName"
+        android:background="@drawable/ic_launcher"
+        android:layout_below="@+id/experience"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/distance"
+        android:text="Distance In KM"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/distanceIcon"
+        android:layout_below="@+id/experience"
+        android:layout_marginTop="4dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/currencyIcon"
+        android:layout_toRightOf="@id/availibility"
+        android:background="@drawable/ic_launcher"
+        android:layout_below="@+id/distanceIcon"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/consultationFees"
+        android:text="300 in Ruppes"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/currencyIcon"
+        android:layout_below="@+id/distance"
+        android:layout_marginTop="4dp"/>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/likeIcon"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_launcher"
+        android:layout_below="@+id/docProfileImg"
+        android:layout_marginLeft="20dp"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/likeCount"
+        android:text="300"
+
+        android:layout_toRightOf="@id/likeIcon"
+        android:layout_below="@+id/docProfileImg"
+        android:layout_marginTop="4dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sponcered"
+        android:text="Sponcered"
+        android:layout_alignParentLeft="true"
+
+        android:layout_below="@+id/likeCount"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+
+
+        android:shadowColor="#ffffff"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/likeCount"
+        android:layout_below="@+id/availibility"
+        android:text="Book"
+        />
+
+    <Button
+        android:id="@+id/btnCall"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+
+
+        android:shadowColor="#ffffff"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/btnBook"
+        android:layout_below="@+id/availibility"
+        android:text="Call"
+        />
+
+
+</RelativeLayout>

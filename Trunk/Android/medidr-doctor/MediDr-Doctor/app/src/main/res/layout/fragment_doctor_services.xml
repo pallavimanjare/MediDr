@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.medidr.doctor.ui.DoctorServicesFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="65dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="460dp">
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/linearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        style="@style/headerboldtext"
+                        android:layout_width="207dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:gravity="center_vertical"
+                        android:text="Services Available at Hospital/Clinic" />
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="91dp"
+                        android:layout_height="91dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/textView3"
+                        android:src="@drawable/ambulance_128" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearLayout"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/errorMsg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/textView8"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:textColor="#ff0000"
+                        style="@style/boldtext"
+                        />
+
+                    <ListView
+                        android:id="@+id/hospServiceListView"
+                        android:layout_width="match_parent"
+                        android:layout_height="700dp"
+                        android:scrollbars="none"
+                        />
+
+
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            android:gravity="center|bottom">
+
+            <ImageButton
+                android:id="@+id/addMore"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/hospitalServiceNxt"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/add_more_button_style" />
+
+            <ImageButton
+                android:id="@+id/hospitalServiceNxt"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/save_button_style"
+                android:baselineAlignBottom="true" />
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

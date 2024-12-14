@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.medidr.doctor.ui.SignUp"
+    tools:showIn="@layout/activity_sign_up">
+
+
+    <ImageView
+        android:layout_width="350px"
+        android:layout_height="350px"
+        android:id="@+id/big_logo_image"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_main"
+        android:background="@android:color/transparent"
+
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/errorMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        style="@style/boldtext"
+        android:layout_below="@+id/big_logo_image"
+        />
+
+    <EditText
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_mobile"
+        android:hint="Mobile"
+        android:layout_marginTop="35px"
+        style="@style/normaltext"
+
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:inputType="number"
+        android:maxLength="10"
+        android:singleLine="true"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/mobile_icon"
+        android:layout_below="@+id/errorMsg"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_password"
+        android:hint="Create Password"
+        android:inputType="textPassword"
+        android:password="true"
+        android:singleLine="true"
+        android:maxLength="20"
+        style="@style/normaltext"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/key_icon"
+        android:layout_below="@+id/sign_up_mobile"
+        android:layout_alignStart="@+id/sign_up_mobile" />
+
+    <EditText
+        android:layout_width="550px"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_re_pass"
+        android:hint="Re-Type Password"
+        style="@style/normaltext"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:inputType="textPassword"
+        android:password="true"
+        android:singleLine="true"
+        android:maxLength="20"
+        android:textAlignment="center"
+        android:drawableLeft="@drawable/key_icon"
+        android:layout_below="@+id/sign_up_password"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_button"
+
+        android:layout_below="@+id/sign_up_re_pass"
+        android:layout_marginTop="20px"
+        android:background="@drawable/signup_button_style"
+        android:layout_centerHorizontal="true" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/already_acc_img"
+        android:background="@android:color/transparent"
+        android:id="@+id/textView8"
+        android:layout_marginTop="10dp"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@+id/sign_up_button"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_in_button"
+
+
+        android:layout_below="@+id/textView8"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/signin_button_style"
+        android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>

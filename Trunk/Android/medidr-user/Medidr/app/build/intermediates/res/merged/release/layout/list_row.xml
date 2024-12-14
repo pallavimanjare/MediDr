@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/roundedborder"
+    android:padding="8dp" >
+
+    <!-- Thumbnail Image -->
+    <com.medidr.user.ui.DesignService.CircularNetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circularborder"
+        android:layout_alignParentLeft="true"
+        />
+
+
+    <TextView
+        android:id="@+id/doctorName"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/doctorName"
+        android:gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:maxLines="1"
+        android:textStyle="bold" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/hospitalName"
+        android:layout_width="200dp"
+        android:maxLines="1"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctorName"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/hospitalName" />
+
+    <ImageView
+        android:id="@+id/availableIcon"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="left"
+        android:layout_below="@+id/hospitalName"
+        android:background="@mipmap/doctor_available"
+        />
+    <TextView
+        android:id="@+id/availibility"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hospitalName"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/availableIcon"
+        android:text="Available Today"
+        android:textSize="@dimen/hospitalName" />
+
+
+    <TextView
+        android:id="@+id/experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:gravity="right"
+        android:drawableLeft="@mipmap/doctor_search_doctor_experince_icon"
+        android:drawablePadding="3dp"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/Experience" />
+
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="right"
+        android:layout_below="@+id/experience"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@mipmap/doctor_search_distance_icon"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/Experience" />
+
+
+    <TextView
+        android:id="@+id/consulationFees"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="right"
+        android:layout_below="@+id/distance"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@mipmap/doctor_search_rupee_symbol"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/Experience" />
+
+
+    <TextView
+        android:id="@+id/likeCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="2dp"
+        android:text="215"
+        android:drawableLeft="@mipmap/doctor_search_like_button_green"
+        android:drawablePadding="5dp"
+        android:layout_below="@+id/thumbnail"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/like"
+        android:textColor="#00608b"
+        android:layout_toStartOf="@+id/availableIcon" />
+
+    <ImageView
+        android:id="@+id/sponcered"
+        android:layout_width="80dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/likeCount"
+        android:layout_marginLeft="2dp"
+        android:layout_alignParentLeft="true"
+        android:background="@mipmap/doctor_search_sponsored"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/sponcered"
+        android:layout_alignBottom="@+id/sponcered"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/book_button_style"
+            android:layout_below="@+id/availibility"
+            android:layout_toEndOf="@+id/sponcered"
+            />
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/call_button_style"
+            android:layout_alignTop="@+id/btnBook"
+            android:layout_toEndOf="@+id/doctorName" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.medidr.user.ui.activity.FilterResultsActivity"
+    tools:showIn="@layout/activity_filter_results"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/distanceIcon"
+            android:background="@mipmap/search_filters_distance"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Distance Range (km)"
+            android:layout_toRightOf="@id/distanceIcon"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/distance"
+            style="@style/bigboldtext"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/distance"
+            android:text="0"
+            style="@style/bigboldtext"
+            android:id="@+id/zerotext"
+            />
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/zerotext"
+            android:layout_below="@+id/distance"
+            android:max="100"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/distance"
+            android:layout_toRightOf="@+id/seekBar"
+            android:text="100"
+
+            android:id="@+id/hundredtext"
+            style="@style/bigboldtext"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout2"
+        android:layout_marginTop="0dp"
+
+        android:layout_gravity="center"
+        android:text="0"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/seekBartext"
+        style="@style/bigboldtext"
+        />
+    <View
+        android:layout_width="550px"
+        android:layout_height="2dp"
+        android:layout_below="@+id/seekBartext"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/divider1"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="#bfbfbf" />
+
+
+    <LinearLayout
+        android:id="@+id/layout3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/searchDocIcon"
+            android:background="@mipmap/search_filters_stethoscope"
+            android:layout_below="@+id/divider1"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search For Doctor"
+            android:layout_toRightOf="@id/searchDocIcon"
+            android:layout_below="@+id/divider1"
+
+            android:layout_marginLeft="20dp"
+            android:id="@+id/searchDoc"
+            style="@style/bigboldtext"
+            />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/eddoctorname"
+        android:layout_centerHorizontal="true"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+
+        android:hint="Doctor Name"
+        android:layout_below="@+id/layout3"
+        android:paddingLeft="70dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:drawablePadding="20dp"
+        android:singleLine="true"
+        style="@style/bignormaltext"
+
+        />
+
+    <View
+        android:layout_width="550px"
+        android:layout_height="2dp"
+        android:layout_below="@+id/eddoctorname"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/divider2"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/layout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/consulationFeesIcon"
+            android:background="@mipmap/search_filters_money_icon"
+            android:layout_below="@+id/divider2"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Consultation Fees"
+
+            android:layout_toRightOf="@id/consulationFeesIcon"
+            android:layout_below="@+id/divider2"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/consulationFees"
+            style="@style/bigboldtext"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnfree"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/layout4"
+            android:background="@drawable/free_button_style"
+            />
+
+        <Button
+            android:id="@+id/btn250"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnfree"
+            android:layout_below="@+id/layout4"
+            android:background="@drawable/onetotwofifty_button_style" />
+        <Button
+            android:id="@+id/btn500"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btn250"
+            android:layout_below="@+id/layout4"
+            android:background="@drawable/twofifty_button_style" />
+        <Button
+            android:id="@+id/btn501"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btn500"
+            android:layout_below="@+id/layout4"
+            android:background="@drawable/five_button_style" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="550px"
+        android:layout_height="2dp"
+        android:layout_below="@+id/btn501"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/divider3"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#bfbfbf" />
+
+
+    <LinearLayout
+        android:id="@+id/layout6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="30dp"
+            android:id="@+id/apptypeIcon"
+            android:background="@mipmap/search_filters_appointment_type"
+            android:layout_below="@+id/divider3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appointment Type"
+
+            android:layout_toRightOf="@id/apptypeIcon"
+            android:layout_below="@+id/divider3"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/appointmentType"
+            style="@style/bigboldtext"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/btnCall"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/appointmentType"
+            android:background="@drawable/filter_call_style"
+            />
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnCall"
+            android:layout_below="@+id/appointmentType"
+            android:background="@drawable/filter_book_style"
+            />
+        <Button
+            android:id="@+id/btnBoth"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnBook"
+            android:layout_below="@+id/appointmentType"
+            android:background="@drawable/filter_both_style"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="550px"
+        android:layout_height="2dp"
+        android:layout_below="@+id/layout7"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/divider4"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+
+        <Button
+            android:id="@+id/btnReset"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/reset_button_style"
+            android:layout_below="@+id/divider4"
+            />
+
+
+        <Button
+            android:id="@+id/btnApply"
+            android:layout_width="140dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/btnReset"
+            android:background="@drawable/apply_button_style"
+            android:layout_below="@+id/divider4"
+            />
+    </LinearLayout>
+</LinearLayout>

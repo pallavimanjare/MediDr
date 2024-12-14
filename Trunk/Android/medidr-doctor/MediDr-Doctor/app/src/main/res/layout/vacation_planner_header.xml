@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tableColor">
+
+
+    <TextView
+        android:id="@+id/fromDate"
+        style="@style/bignormaltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="From"
+        android:textColor="@color/titleColor"
+
+        />
+
+
+    <TextView
+        android:id="@+id/toDate"
+        style="@style/bignormaltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+
+        android:gravity="right"
+        android:layout_marginRight="40dp"
+        android:singleLine="true"
+        android:text="To"
+
+        android:textColor="@color/titleColor"/>
+
+
+</RelativeLayout>

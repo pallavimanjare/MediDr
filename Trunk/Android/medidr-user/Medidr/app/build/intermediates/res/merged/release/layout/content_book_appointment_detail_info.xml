@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.medidr.user.ui.activity.BookAppointmentDetailInfoActivity"
+    tools:showIn="@layout/activity_book_appointment_detail_info">
+
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:background="#EEEEEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        >
+
+        <com.medidr.user.ui.DesignService.CircularNetworkImageView
+            android:layout_width="102dp"
+            android:layout_height="102dp"
+            android:id="@+id/docProfileImg"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_alignParentLeft="true"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/doctorName"
+            android:textColor="#000000"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            style="@style/bigboldtext"
+            android:layout_toRightOf="@id/docProfileImg"
+            android:text="doctor name"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hospitalName"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            style="@style/bigboldtext"
+            android:layout_below="@+id/doctorName"
+            android:layout_toRightOf="@id/docProfileImg"
+            android:text="hospital name"
+
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/lay1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/rel1"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/hospitalAddress"
+            android:layout_below="@+id/hospitalName"
+            android:drawableLeft="@mipmap/appointment_details_hospital_name_copy"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="hospital address"
+            style="@style/boldtext"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider1"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay1"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/lay2"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/divider1"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/distance"
+            android:drawableLeft="@mipmap/appointment_details_copy"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Distance"
+            style="@style/boldtext"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/direction"
+            android:layout_marginLeft="10dp"
+
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:drawablePadding="5dp"
+            android:textColor="#00608b"
+            android:drawableRight="@mipmap/appointment_details_directions_copy"
+
+            style="@style/boldtext"
+            />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider2"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay2"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/lay3"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/divider2"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appointmentDate"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@mipmap/appointment_details_appointment_date_copy"
+            android:layout_marginLeft="10dp"
+            android:text="Appointment Date"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appointmentDateVal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            style="@style/boldtext" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider3"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay3"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/lay4"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/divider3"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appointmentTime"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@mipmap/appointment_details_appointment_time_copy"
+            android:layout_marginLeft="10dp"
+            android:text="Appointment Time"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appointmentTimeVal"
+            android:layout_toRightOf="@id/appointmentTime"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider4"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay4"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/lay5"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/divider4"
+        android:orientation="horizontal">
+        />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appointmentId"
+            android:drawableLeft="@mipmap/appointment_details_appointment_id_copy"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Appointment ID"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/appointmentIdVal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider5"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay5"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/lay6"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/divider5"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientName"
+            android:drawableLeft="@mipmap/appointment_details_patient_name_copy"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Patient Name"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientNameVal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider6"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay6"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/lay7"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/divider6"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientMobile"
+            android:drawableLeft="@mipmap/appointment_details_mobile_copy"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="Patient Mobile"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/patientMobileVal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider7"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay7"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:id="@+id/lay8"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/divider7"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userName"
+            android:drawableLeft="@mipmap/appointment_details_username_copy"
+            android:drawablePadding="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="User Name"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userNameVal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textColor="#000000"
+            style="@style/boldtext"
+            />
+    </LinearLayout>
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider8"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/lay8"
+        android:background="#bfbfbf" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/appointment_cancel_button_style"
+            android:layout_below="@+id/userName"
+            />
+
+    </LinearLayout>
+</LinearLayout>

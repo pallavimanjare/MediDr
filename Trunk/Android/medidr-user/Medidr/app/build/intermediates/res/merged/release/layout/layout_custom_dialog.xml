@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+    <TextView
+        android:id="@+id/lbltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/bignormaltext"
+        android:text="Please ensure your GPS is ON." />
+       <!-- <Button
+            android:id="@+id/btnOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+        android:layout_below="@+id/chklbl"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:text="Settings"
+            />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/chklbl"
+            android:layout_toRightOf="@+id/btnOK"
+            android:layout_marginTop="10dp"
+            android:text="Cancel" />-->
+        </RelativeLayout>
+
+

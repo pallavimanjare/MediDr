@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/a1_250_selected_btn"
+    android:state_pressed="true" />
+    <item android:state_focused="true" android:drawable="@mipmap/a1_250_selected_btn"></item>
+    <item android:drawable="@mipmap/a1_250_btn"
+
+        />
+
+</selector>

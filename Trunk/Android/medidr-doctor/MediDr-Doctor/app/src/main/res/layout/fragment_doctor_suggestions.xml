@@ -1,0 +1,69 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.medidr.doctor.ui.DoctorSuggestionsFragment">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="50dp">
+
+
+        <EditText
+            android:id="@+id/edMessage"
+            style="@style/normaltext"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="45dp"
+            android:maxLength="300"
+            android:padding="10dp"
+            android:gravity="top"
+            android:textColorHint="#666666"
+            android:scrollbars="vertical"
+            android:background="@drawable/border"
+            android:hint="We would like to hear your valuable suggestion and queries here."
+
+            android:textCursorDrawable="@drawable/cursorcolor" >
+            <requestFocus />
+        </EditText>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/btnSend"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/edMessage"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="right"
+                android:textSize="15dp"
+                android:background="@drawable/send_button_style"
+                />
+            <Button
+                android:id="@+id/btncall"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/btnSend"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/call_button_style"
+
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

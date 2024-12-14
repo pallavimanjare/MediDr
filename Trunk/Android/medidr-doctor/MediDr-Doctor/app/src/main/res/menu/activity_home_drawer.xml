@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_personal_info"
+        android:icon="@mipmap/ic_account_circle_black_24dp"
+        android:title="Personal Information" />
+    <item
+        android:id="@+id/nav_profile_photo"
+        android:icon="@mipmap/ic_insert_photo_black_24dp"
+        android:title="Profile Photo" />
+    <item
+        android:id="@+id/nav_hospital_info"
+        android:icon="@mipmap/ic_local_hospital_black_24dp"
+        android:title="Hospital Information" />
+
+    <item
+        android:id="@+id/nav_services"
+        android:icon="@mipmap/ic_airport_shuttle_black_24dp"
+        android:title="Services" />
+    <item
+        android:id="@+id/nav_service_types"
+        android:icon="@mipmap/ic_contact_phone_black_24dp"
+        android:title="Service Types" />
+
+
+    <item
+        android:id="@+id/nav_edit_schedule"
+        android:icon="@mipmap/calendar_icon"
+        android:title="Edit Schedule" />
+    <item
+        android:id="@+id/nav_my_vacation"
+        android:icon="@mipmap/vacation_icon"
+        android:title="My Vacation" />
+
+    <item
+        android:id="@+id/nav_report_request"
+        android:icon="@mipmap/checklist_todo_512"
+        android:title="Report Request" />
+    <item
+        android:id="@+id/nav_about_is"
+        android:icon="@mipmap/ic_info_black_24dp"
+        android:title="About Us" />
+    <item
+        android:id="@+id/nav_suggestions"
+        android:icon="@mipmap/ic_question_answer_black_24dp"
+        android:title="Suggestions" />
+    <item
+        android:id="@+id/nav_faq"
+        android:icon="@mipmap/ic_help_black_24dp"
+        android:title="FAQ" />
+    <item
+        android:id="@+id/nav_signout"
+        android:icon="@mipmap/ic_power_settings_new_black_24dp"
+        android:title="Sign Out" />
+
+
+</menu>

@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.medidr.doctor.ui.DoctorProfilePhotoFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       android:layout_marginTop="50dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="123dp"
+                android:text="Profile Photo"
+                android:gravity="center"
+                android:id="@+id/textView2"
+                style="@style/headerboldtext"
+                android:layout_alignParentTop="true"
+                android:layout_alignBottom="@+id/imageView2" />
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/doctorProfileImage"
+                android:src="@drawable/doctor_profile_pic"
+                android:layout_gravity="center"
+                android:layout_weight="0.43" />
+
+
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btntakePhoto"
+                android:src="@drawable/choose_photo_button"
+                android:background="@android:color/transparent"
+                android:layout_gravity="center" />
+
+
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/nxtButton"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/save_button_style"
+            android:layout_alignParentStart="true" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

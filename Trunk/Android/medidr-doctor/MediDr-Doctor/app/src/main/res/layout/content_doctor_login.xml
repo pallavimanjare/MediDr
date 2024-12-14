@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.medidr.doctor.DoctorLoginActivity"
+    tools:showIn="@layout/activity_login">
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativeLayout2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+        <ImageView
+            android:layout_width="350px"
+            android:layout_height="350px"
+            android:id="@+id/big_logo_image"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_main"
+            android:background="@android:color/transparent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/register_doctor"
+            android:background="@drawable/create_account_button_style"
+            android:layout_below="@+id/big_logo_image"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/already_acc_img"
+            android:background="@android:color/transparent"
+            android:id="@+id/textView8"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/register_doctor"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/errorMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#ff0000"
+            style="@style/boldtext"
+            />
+
+        <EditText
+            android:layout_width="550px"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobile"
+
+            android:singleLine="true"
+            style="@style/normaltext"
+            android:textAlignment="center"
+
+            android:hint="Mobile"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColorHint="#000000"
+            android:drawableLeft="@drawable/mobile_icon"
+            android:layout_below="@+id/errorMsg"
+            android:layout_alignStart="@+id/password" />
+
+        <EditText
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:id="@+id/password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:password="true"
+            android:singleLine="true"
+            style="@style/normaltext"
+            android:textColorHint="#000000"
+            android:drawableLeft="@drawable/key_icon"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_below="@+id/mobile"
+            android:layout_centerHorizontal="true" />
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stay Signed In"
+            android:textColor="#000000"
+            android:id="@+id/chkRemember"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/signin_button_style"
+            android:layout_gravity="center"
+            android:id="@+id/sign_up"
+
+            android:layout_below="@+id/chkRemember"
+            android:layout_centerHorizontal="true" />
+
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/forgot_password_button_style"
+        android:id="@+id/forgot_password_login"
+        android:layout_gravity="center_horizontal"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"  />
+</RelativeLayout>

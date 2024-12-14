@@ -1,0 +1,518 @@
+[
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_action_share.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_action_share.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_distance.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_distance.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\call_button.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\call_button.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\sign_in_button_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_in_button_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_power_settings_new_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_power_settings_new_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_like_button_green.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_like_button_green.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\free.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\free.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_money_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_money_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\send_button.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\send_button.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_exp_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_exp_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\edit_user_profile_pincode_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\edit_user_profile_pincode_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\book.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\book.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\apply.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\apply.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\reset.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\reset.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\sign_in_button.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_in_button.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\both.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\both.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_doctor_experince_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_doctor_experince_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\both_selected_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\both_selected_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\checkbox_unchecked.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\checkbox_unchecked.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_arrow_drop_down_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_arrow_drop_down_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_reschedule_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_reschedule_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_username_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_username_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_info_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_info_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_lock_outline_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_lock_outline_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\zero_selected.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\zero_selected.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\five.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\five.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_schedule_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_schedule_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_help_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_help_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\call.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\call.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_filter_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_filter_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_arrow_drop_down_black_24dp_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_arrow_drop_down_black_24dp_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\user_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\user_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_directions_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_directions_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\edit_user_profile_password_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\edit_user_profile_password_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_reset_button_normal_gray.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_reset_button_normal_gray.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_distance_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_distance_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_appointment_datecopy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_appointment_datecopy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\book_appointment_mobile_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\book_appointment_mobile_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\close_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\close_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\forgot_password_button_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\forgot_password_button_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\logo_circle.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\logo_circle.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\book_appointment_prev.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\book_appointment_prev.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doc_name_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doc_name_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\reset_button.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\reset_button.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\twofifty.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\twofifty.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_keyboard_arrow_up_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_keyboard_arrow_up_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_header_call_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_header_call_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_question_answer_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_question_answer_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_book_button_pressed_green.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_book_button_pressed_green.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_rupee_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_rupee_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\suggestion_send.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\suggestion_send.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\login_bg.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\login_bg.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\call_button_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\call_button_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_book_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_book_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_keyboard_arrow_down_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_keyboard_arrow_down_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\mobile_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\mobile_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_apply_button_pressed_green.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_apply_button_pressed_green.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_search_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_clear_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_clear_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_account_circle_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_account_circle_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\lock.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\lock.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_also_practise_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_also_practise_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\a1_250_btn.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\a1_250_btn.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\create_an_account_button.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\create_an_account_button.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\qualification.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\qualification.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\like_button_white.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\like_button_white.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_search_black_24dp_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_search_black_24dp_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\checkbox_checked.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\checkbox_checked.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\call_selected_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\call_selected_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\sign_in_button_new.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_in_button_new.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_mobile_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_mobile_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_degree_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_degree_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\otherinfo.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\otherinfo.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\a1_250_selected_btn.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\a1_250_selected_btn.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\suggestion_call.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\suggestion_call.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_appointment_id_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_appointment_id_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\submit_button_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\submit_button_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\header_logo.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\header_logo.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_doctor_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_doctor_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_notavailable_dot.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_notavailable_dot.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\password_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\password_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\fees_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\fees_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\reset_button_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\reset_button_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\zero.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\zero.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\book_selected_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\book_selected_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_available_dot.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_available_dot.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\calendar_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\calendar_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_cancel_pressed_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_cancel_pressed_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_gps_fixed_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_gps_fixed_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_cancel_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_cancel_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_fees_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_fees_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_stethoscope.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_stethoscope.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\submit_button.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\submit_button.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doc_stethoscope_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doc_stethoscope_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\twofifty_selected.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\twofifty_selected.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_create_black_24dp.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_create_black_24dp.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_hospital_name_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_hospital_name_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\forgot_password_group.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\forgot_password_group.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\edit_user_profile_username_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\edit_user_profile_username_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\seekbar.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\seekbar.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_sponsored.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_sponsored.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_launcher.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_call_button_pressed_green.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_call_button_pressed_green.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\medidr_logo.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\medidr_logo.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\five_selected.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\five_selected.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_book_button_normal_green.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_book_button_normal_green.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_appointment_type.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_appointment_type.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_call_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_call_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_distance_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_distance_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_reschedule_pressed_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_reschedule_pressed_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_rupee_symbol.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_rupee_symbol.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\ic_action_arrow_left.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_action_arrow_left.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_apply_button_normal_green.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_apply_button_normal_green.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\send_button_pressed.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\send_button_pressed.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\launcher_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\launcher_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_search_call_button_normal_green.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_search_call_button_normal_green.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\sign_up_button.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\sign_up_button.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_patient_name_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_patient_name_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\free_selected_selected.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\free_selected_selected.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_address_icon_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_address_icon_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_book_pressed_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_book_pressed_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_address_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_address_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\edit_user_profile_save_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\edit_user_profile_save_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\search_filters_reset_button_pressed_gray.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\search_filters_reset_button_pressed_gray.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\directions_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\directions_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\dist_icon.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\dist_icon.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\doctor_profile_tab_info_call_pressed_button_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\doctor_profile_tab_info_call_pressed_button_copy.png"
+    },
+    {
+        "merged": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi-v4\\appointment_details_appointment_time_copy.png",
+        "source": "C:\\MediDr_V_2.0_Workspace\\BitBucketRepo\\Trunk\\Android\\medidr-user\\Medidr\\app\\src\\main\\res\\mipmap-xxxhdpi\\appointment_details_appointment_time_copy.png"
+    }
+]

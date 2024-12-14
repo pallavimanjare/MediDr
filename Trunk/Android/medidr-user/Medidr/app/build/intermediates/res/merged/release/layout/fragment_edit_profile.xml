@@ -1,0 +1,217 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.medidr.user.ui.fragment.EditProfileFragment">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:gravity="center"
+        >
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <EditText
+            android:id="@+id/edMobile"
+            style="@style/normaltext"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:inputType="number"
+            android:paddingBottom="15dp"
+            android:drawablePadding="25dp"
+            android:textAlignment="textStart"
+            android:maxLength="12"
+            android:singleLine="true"
+            android:hint="Mobile"
+            android:drawableLeft="@mipmap/edit_user_profile_mobile_icon_copy"
+            android:textSize="@dimen/hospitalName"
+            >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edfullname"
+            style="@style/normaltext"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="textStart"
+            android:layout_below="@+id/edMobile"
+            android:singleLine="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:maxLength="25"
+            android:hint="Name"
+            android:drawableLeft="@mipmap/edit_user_profile_username_icon_copy"
+            android:textSize="@dimen/hospitalName"
+            >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edEmail"
+            style="@style/normaltext"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:drawablePadding="20dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="textStart"
+            android:layout_below="@+id/edfullname"
+            android:singleLine="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textSize="@dimen/hospitalName"
+            android:maxLength="100"
+            android:hint="Email"
+            android:drawableLeft="@mipmap/edit_user_profile_email_icon_copy"
+            android:textCursorDrawable="@drawable/cursorcolor" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edaddress"
+            style="@style/normaltext"
+            android:drawablePadding="25dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="textStart"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edEmail"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:singleLine="true"
+            android:maxLength="100"
+            android:textSize="@dimen/hospitalName"
+            android:hint="Address"
+            android:drawableLeft="@mipmap/edit_user_profile_pincode_icon_copy"
+            >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edpincode"
+            android:drawablePadding="25dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="textStart"
+            style="@style/normaltext"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:inputType="number"
+            android:layout_below="@+id/edaddress"
+            android:maxLength="6"
+            android:singleLine="true"
+            android:hint="PinCode"
+            android:drawableLeft="@mipmap/edit_user_profile_pincode_icon_copy"
+            android:textSize="@dimen/hospitalName"
+            >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edPassword"
+            android:drawablePadding="20dp"
+            android:paddingBottom="15dp"
+            android:textAlignment="textStart"
+            android:layout_width="550px"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edpincode"
+            android:textCursorDrawable="@drawable/cursorcolor"
+            android:inputType="textPassword"
+            android:longClickable="false"
+            android:hint="Password"
+            android:singleLine="true"
+            android:drawableLeft="@mipmap/edit_user_profile_password_icon_copy"
+            android:textSize="@dimen/hospitalName"
+            >
+
+            <requestFocus />
+        </EditText>
+
+        <!--  <EditText
+              android:id="@+id/edretypepassword"
+              android:layout_width="250dp"
+              android:layout_height="40dp"
+              android:layout_gravity="center_horizontal"
+              android:layout_marginTop="10dp"
+              android:textCursorDrawable="@drawable/cursorcolor"
+              android:inputType="textPassword"
+              android:longClickable="false"
+              android:hint="ReType Password"
+              android:drawableLeft="@mipmap/edit_user_profile_password_icon_copy"
+              android:textSize="@dimen/doctorName" />-->
+
+
+        <CheckBox
+            android:id="@+id/chkterms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/checkbox_style"
+            android:linksClickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/edPassword"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:typeface="sans"
+            android:text="Accept Terms and Conditions"
+            />
+
+        <!--   <TextView
+               android:id="@+id/checkboxlbl"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_toRightOf="@+id/chkterms"
+               android:layout_below="@+id/edPassword"
+               android:layout_centerHorizontal="true"
+               android:paddingLeft="10dp"
+               android:layout_marginTop="10dp"
+               android:text="Accept Terms and Conditions"
+               android:textSize="@dimen/hospitalName"
+               android:textStyle="bold"
+               android:typeface="sans"
+
+               />
+   -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center|bottom">
+
+            <Button
+                android:id="@+id/btnsubmit"
+                android:background="@drawable/edit_profile_button_style"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_below="@+id/checkboxlbl"
+                android:layout_centerHorizontal="true"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

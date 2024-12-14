@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="500dp" >
+
+    <TextView
+        android:id="@+id/lblSignOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Are you sure you want to Sign Out of MediDr App?"
+      style="@style/boldtext"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="20dp"
+        />
+    <Button
+        android:id="@+id/btnNO"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblSignOut"
+        android:layout_alignParentLeft="true"
+        android:text="NO" />
+
+    <Button
+        android:id="@+id/btnYES"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblSignOut"
+        android:layout_toRightOf="@+id/btnNO"
+        android:text="YES" />
+
+</RelativeLayout>

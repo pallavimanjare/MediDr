@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@mipmap/search_filters_reset_button_pressed_gray"
+    android:state_pressed="true" />
+    <item android:state_focused="true" android:drawable="@mipmap/search_filters_reset_button_pressed_gray"></item>
+    <item android:drawable="@mipmap/search_filters_reset_button_normal_gray"
+
+        />
+
+</selector>

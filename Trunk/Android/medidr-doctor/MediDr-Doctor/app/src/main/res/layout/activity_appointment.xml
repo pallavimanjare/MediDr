@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context="com.medidr.doctor.ui.Appointment">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#da4336">
+
+        <ImageView
+            android:layout_width="33dp"
+            android:gravity="left"
+            android:layout_height="33dp"
+            android:src="@drawable/logo_circle"
+            android:id="@+id/imageView"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@+id/textView"
+            android:layout_marginEnd="45dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:text="MediDr - Doctor"
+            android:textColor="#ffffff"
+            android:id="@+id/textView"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+
+    <include layout="@layout/content_appointment" />
+
+
+</LinearLayout>

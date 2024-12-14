@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="20dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.medidr.doctor.ui.HospitalInformationActivity"
+    tools:showIn="@layout/activity_hospital_information">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="485dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="right"
+                    android:src="@drawable/hospital" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="myriad pro regular"
+                    android:gravity="center"
+                    android:text="Hospital Information"
+                    android:textColor="#0f0f0f"
+                    android:textSize="17dp"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="65dp">
+
+                <EditText
+                    android:id="@+id/hospital_name"
+                    style="@style/normaltext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="40dp"
+                    android:singleLine="true"
+                    android:maxLength="200"
+                    android:textCursorDrawable="@drawable/cursorcolor"
+                    android:drawableLeft="@drawable/hospital_small_icon"
+
+                    android:hint="Hospital Name"
+                    android:textColorHint="#666666" />
+
+                <EditText
+                    android:id="@+id/hospital_address"
+                    style="@style/normaltext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="40dp"
+                    android:singleLine="false"
+                    android:maxLength="500"
+                    android:textCursorDrawable="@drawable/cursorcolor"
+                    android:drawableLeft="@drawable/address_icon"
+
+                    android:hint="Hospital Address"
+                    android:textColorHint="#666666" />
+
+                <EditText
+                    android:id="@+id/hospital_pincode"
+                    style="@style/normaltext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="40dp"
+                    android:singleLine="true"
+                    android:textCursorDrawable="@drawable/cursorcolor"
+                    android:drawableLeft="@drawable/pincode_icon"
+
+                    android:hint="Pincode"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:textColorHint="#666666" />
+
+                <EditText
+                    android:id="@+id/hospital_reception_number"
+                    style="@style/normaltext"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="40dp"
+                    android:textCursorDrawable="@drawable/cursorcolor"
+                    android:drawableLeft="@drawable/old_phone"
+                    android:layout_marginBottom="10dp"
+                    android:hint="Reception Number"
+                    android:inputType="number"
+                    android:maxLength="20"
+                    android:singleLine="true"
+                    android:textColorHint="#666666" />
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:background="@drawable/border"
+                    android:layout_height="210dp">
+
+                    <LinearLayout
+                        android:id="@+id/linearLayoutslide"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/add_image_1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/add_button_style"
+
+
+                            />
+
+                        <ImageView
+                            android:id="@+id/add_image_2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_toRightOf="@+id/add_image_1"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/add_button_style" />
+
+                        <ImageView
+                            android:id="@+id/add_image_3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/add_image_2"
+                            android:background="@drawable/add_button_style" />
+
+                        <ImageView
+                            android:id="@+id/add_image_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_toRightOf="@+id/add_image_3"
+                            android:background="@drawable/add_button_style" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        style="@style/boldtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/linearLayoutslide"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="10dp"
+                        android:text="Upload Hospital Images"
+                        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+                    <ImageButton
+                        android:id="@+id/arrow_left_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/left_button_style"
+                        android:layout_alignTop="@+id/arrow_right_button"
+                        android:layout_alignParentStart="true" />
+
+                    <ImageView
+                        android:id="@+id/mainDisplayImage"
+                        android:layout_width="180dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/ic_person_black_24dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:layout_centerHorizontal="true" />
+
+                    <ImageButton
+                        android:id="@+id/arrow_right_button"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/right_button_style"
+                        android:layout_alignTop="@+id/mainDisplayImage"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="27dp" />
+
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center|bottom">
+        <ImageButton
+            android:id="@+id/nxtButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/next_button_style"
+            />
+    </LinearLayout>
+
+</LinearLayout>

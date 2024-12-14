@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="#da4336">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:gravity="left"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:src="@drawable/logo_circle"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Registration"
+        android:textColor="#ffffff"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/imageView" />
+
+
+
+</RelativeLayout>

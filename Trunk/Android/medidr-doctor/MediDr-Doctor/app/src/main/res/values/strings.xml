@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">&#160;&#160;&#160;MediDr Doctor</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">&#160;&#160;&#160;MediDr Doctor</string>
+    <string name="title_activity_register">&#160;&#160;&#160;Doctor Registration</string>
+    <string name="title_activity_uplaod_image">&#160;&#160;&#160;Doctor Registration</string>
+    <string name="title_activity_hospital_information">&#160;&#160;&#160;Doctor Registration</string>
+    <string name="title_activity_service_type">&#160;&#160;&#160;Doctor Registration</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_weekly_schedule">&#160;&#160;&#160;Doctor Registration</string>
+
+
+    <string-array name="week_days">
+
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+
+    <string-array name="minutes">
+        <item>Appointment Time Duration in Minutes</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="weekoff_days">
+        <item>Select Weekly Off Day</item>
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+
+    </string-array>
+    <string name="title_activity_hospital_services">&#160;&#160;&#160;Doctor Registration</string>
+    <string name="title_activity_appointment_details">&#160;&#160;&#160;Appointment Details</string>
+    <string name="title_activity_forgot_password">&#160;&#160;&#160;Forgot Password</string>
+    <string name="title_activity_reset_password">&#160;&#160;&#160;Reset Password</string>
+    <string name="title_activity_suggestion">&#160;&#160;&#160;Suggestions</string>
+    <string name="title_activity_payment_details">&#160;&#160;&#160;Payment Details</string>
+    <string name="title_activity_report_request">&#160;&#160;&#160;Report Request</string>
+    <string name="title_activity_appointment">&#160;&#160;&#160;Appointment</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_sign_up">&#160;&#160;&#160;Sign Up</string>
+    <string name="title_activity_home">&#160;&#160;&#160;MediDr Doctor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_cancel_appointment">&#160;&#160;&#160;Appointment Details</string>
+    <string name="str_about_us"><![CDATA[<p>The health sector is one of the fastest growing in India. This growth can be attributed to rising awareness among people about their health, easy access to information and a growing capacity to spend on better healthcare facilities.</p> <p>MediDr is exclusive user friendly android application for public which will help them to search Doctors according to their Location, Specialties, Geo Distance range, Consulting Fees and Services offered. Also in addition to this user will get Doctor Info, Practice Experiences, Expertise in subjects, Hospital geo location, Map, Navigation, available services, Available status, Hospital Info Photos and many more details.</p><p>Get easy online Doctor’s appointment with confirmation and get appointment reminders directly on mobile.  All Bookings are absolutely FREE.</p><p>MediDr ensures that doctors save time and enhance practice effortlessly. 24x7 Service will available for your appointment. Get information about patients when they book appointment and call. </p><p>This increases doctor popularity in the online community and in the medical fraternity.</p>]]></string>
+    <string name="str_payment"><![CDATA[After making the payment, please email the screenshot or scanned copy of the payment transfer reciept to care@medidr.in]]></string>
+    <string name="str_bank_details"><![CDATA[<u>MediDr Associates Bank Details</u>]]></string>
+
+
+    <string name="vacationplanner">&#160;&#160;&#160;Vacation Planner</string>
+    <string name="titleInfo">Before setting the vacation dates, please check the appointments between those. If there are, please cancel them.</string>
+    <string name="otherinfo">Patients will not be able to book your appointment on those days, i.e. blocked dates for appointments.</string>
+    <string name="title_activity_otpgeneration">&#160;&#160;&#160;OTP Generation</string>
+    <string name="downloadReport"><u>report101.xls</u></string>
+    <string name="reportdetails">Choose the report for which appointment report should be generated, and then click on Submit. Report file will be downloaded into your mobile.</string>
+
+</resources>

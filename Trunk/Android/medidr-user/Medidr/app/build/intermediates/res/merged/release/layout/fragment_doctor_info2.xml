@@ -1,0 +1,249 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.medidr.user.ui.fragment.DoctorInfoFragment">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            >
+
+            <LinearLayout
+                android:id="@+id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/consulationFees"
+                    android:layout_width="550px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@mipmap/doctor_profile_tab_info_fees_icon_copy"
+                    android:drawablePadding="30dp"
+
+                    style="@style/bignormaltext" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/linearlayout1"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/experience"
+                    android:layout_width="550px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:drawableLeft="@mipmap/doctor_profile_tab_info_exp_icon_copy"
+                    android:drawablePadding="30dp"
+                    android:layout_centerHorizontal="true"
+                    style="@style/bignormaltext"/>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divide1"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/linearlayout2"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#bfbfbf" />
+
+            <LinearLayout
+                android:id="@+id/linearlayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/divide1"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/hospitalAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@mipmap/doctor_profile_tab_info_address_icon_copy"
+                    android:drawablePadding="30dp"
+                    style="@style/bignormaltext"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlayout4"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/linearlayout3"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="550px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:drawableLeft="@mipmap/doctor_profile_tab_info_distance_icon_copy"
+                    android:drawablePadding="30dp"
+                    android:layout_centerHorizontal="true"
+                    style="@style/bignormaltext"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divide2"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/linearlayout4"
+                android:layout_marginBottom="15dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:background="#bfbfbf" />
+
+            <LinearLayout
+                android:id="@+id/linearlayout5"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/divide2"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/availibility"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@mipmap/doctor_profile_tab_info_schedule_icon_copy"
+                    android:drawablePadding="30dp"
+                    android:layout_weight="1"
+                    style="@style/bignormaltext"
+                    />
+
+                <TextView
+                    android:id="@+id/lnkalltimings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="3dp"
+                    android:gravity="right"
+                    android:layout_marginRight="20dp"
+                    android:autoLink="web"
+                    android:linksClickable="true"
+                    android:text="ALL TIMINGS"
+                   style="@style/normaltext"
+                    android:textColor="#00608b" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divide3"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/linearlayout5"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerHorizontal="true"
+                android:background="#bfbfbf" />
+
+            <LinearLayout
+                android:id="@+id/linearlayout6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_below="@+id/divide3"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/education"
+                    android:layout_width="550px"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@mipmap/qualification"
+                    android:drawablePadding="30dp"
+                    android:text="education Information as Follows"
+                    style="@style/bignormaltext"
+                    />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divide4"
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_below="@+id/linearlayout6"
+                android:layout_marginBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:background="#bfbfbf" />
+
+            <LinearLayout
+                android:id="@+id/linearlayout7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/divide4"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:id="@+id/otherinfo"
+                    android:layout_width="550px"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableLeft="@mipmap/otherinfo"
+                    android:drawablePadding="30dp"
+                    android:text="Other Information as Follows"
+                    style="@style/bignormaltext"
+                    />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>

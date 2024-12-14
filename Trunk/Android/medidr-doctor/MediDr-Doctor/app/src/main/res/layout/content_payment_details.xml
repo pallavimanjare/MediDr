@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.medidr.doctor.ui.PaymentDetails"
+        android:background="#ffffff"
+        tools:showIn="@layout/activity_payment_details">
+
+        <TextView
+            android:id="@+id/headPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="MediDr Associates"
+            android:textSize="23dp"
+            style="@style/boldtext" />
+
+        <TextView
+            android:id="@+id/subheadPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headPay"
+            android:layout_marginTop="10dp"
+            android:text="Make Payment by online transfer / NEFT / IMPS / Cheque/Cash Deposit into account"
+            style="@style/normaltext"
+            android:layout_alignStart="@+id/tabMain"
+            android:layout_alignEnd="@+id/tabMain" />
+
+        <TableLayout
+            android:id="@+id/tabMain"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/subheadPay"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Bank :"
+                    style="@style/normaltext" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="20dp"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/sbi_logo"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center_vertical"
+                    />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Account Type :"
+                    style="@style/normaltext"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="Current"
+                    android:layout_marginLeft="10dp"
+                    style="@style/normaltext" />
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Account Name :"
+                    style="@style/normaltext" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="MediDr Associates"
+                    android:layout_marginLeft="10dp"
+                    style="@style/normaltext"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="Account Number :"
+                    style="@style/normaltext" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="35300320408"
+                    android:layout_marginLeft="10dp"
+                    style="@style/normaltext"/>
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:text="IFSC Code :"
+                    style="@style/normaltext"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:text="SBIN0013750"
+                    android:layout_marginLeft="10dp"
+                    style="@style/normaltext"/>
+            </TableRow>
+
+        </TableLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/tabMain"
+            android:id="@+id/relinfo"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border"
+            android:layout_alignStart="@+id/tabMain"
+            android:layout_alignEnd="@+id/tabMain">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_centerHorizontal="true"
+                android:text="Subscription Yearly Charges:"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/payheadsub"
+                style="@style/boldtext" />
+
+            <Button
+                android:id="@+id/call_button"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/payheadsub"
+                android:background="@mipmap/call"
+                android:layout_marginLeft="20dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="1,000/- for One Year"
+                android:layout_below="@+id/payheadsub"
+                android:layout_toRightOf="@+id/call_button"
+                style="@style/normaltext"
+                android:id="@+id/callhead"
+                android:gravity="center_vertical"
+                android:drawablePadding="10dp"
+                android:drawableLeft="@mipmap/doctor_search_rupee_symbol"
+                />
+
+
+            <Button
+                android:id="@+id/book_button"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/call_button"
+                android:background="@mipmap/book"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="2,000/- for One Year"
+                android:layout_below="@+id/call_button"
+                android:layout_toRightOf="@+id/book_button"
+                style="@style/normaltext"
+                android:id="@+id/bookhead"
+                android:gravity="center_vertical"
+                android:drawablePadding="10dp"
+
+                android:drawableLeft="@mipmap/doctor_search_rupee_symbol"
+                />
+            <Button
+                android:id="@+id/both_button"
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/book_button"
+                android:background="@mipmap/both"
+                android:layout_marginLeft="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_centerHorizontal="true"
+                android:text="3,000/- for One Year"
+                android:layout_below="@+id/book_button"
+                android:layout_toRightOf="@+id/both_button"
+                style="@style/normaltext"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/bothhead"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:drawableLeft="@mipmap/doctor_search_rupee_symbol"
+                />
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/relinfo"
+            android:text="@string/str_payment"
+            style="@style/normaltext"
+            android:id="@+id/paybottomlbl"
+            android:layout_alignStart="@+id/relinfo"
+            android:layout_alignEnd="@+id/relinfo"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</ScrollView>

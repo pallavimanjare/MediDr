@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="20dp"
+android:background="@drawable/rectangularborder"
+    >
+
+
+
+    <TextView
+        android:id="@+id/weeklyoff"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="Select Weekly Off Day"
+        android:textStyle="bold"
+
+        android:layout_alignParentLeft="true"
+        />
+
+    </RelativeLayout>

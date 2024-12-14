@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+android:background="@drawable/rectangularborder"
+    >
+
+
+
+    <TextView
+        android:id="@+id/scheduleday"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_weight="1"
+        android:singleLine="false"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="Day"
+        android:textStyle="bold"
+
+        android:layout_alignParentLeft="true"
+        />
+    <TextView
+        android:id="@+id/schedulefrom"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/scheduleday"
+        android:singleLine="false"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="From"
+
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/scheduleto"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+
+        android:singleLine="false"
+        android:layout_toRightOf="@+id/schedulefrom"
+        android:layout_marginTop="10dp"
+        android:textSize="16dp"
+        android:text="To"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/scheduleaction"
+        android:layout_width="50dp"
+        android:layout_height="20dp"
+
+        android:singleLine="false"
+        android:layout_toRightOf="@+id/scheduleto"
+        android:layout_marginTop="10dp"
+android:layout_alignParentRight="true"
+        android:textSize="16dp"
+        android:text="Action"
+        android:textStyle="bold"
+        />
+    </RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <EditText
+        style="@style/normaltext"
+        android:id="@+id/hospital_service"
+        android:layout_width="match_parent"
+        android:singleLine="true"
+        android:maxLength="100"
+        android:layout_height="wrap_content"
+        android:textCursorDrawable="@drawable/cursorcolor"
+        android:drawableLeft="@mipmap/doc_stethoscope_icon"
+        android:hint="Service Name"
+        android:drawablePadding="40dp"
+        android:textColorHint="#666666"
+        />
+</LinearLayout>

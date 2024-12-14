@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#da4336</color>
+    <color name="colorPrimaryDark">#c50404</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="blueback">#E6E4E4</color>
+    <color name="titleColor">#000000</color>
+    <color name="tableColor">#aaaaaa</color>
+    <color name="buttonColor">#ffffff</color>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="top"
+    android:layout_height="?attr/actionBarSize"
+    android:layout_marginTop="-20dp"
+    android:background="?attr/colorPrimary"
+    android:orientation="vertical"
+    >
+
+    <com.medidr.doctor.ui.CircularNetworkImageView
+        android:id="@+id/docProfileImg"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navheaderdoctorName"
+        android:layout_toRightOf="@+id/docProfileImg"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        style="@style/boldtext"
+        android:textSize="16dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/navheaderdocId"
+        android:layout_toRightOf="@+id/docProfileImg"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/navheaderdoctorName"
+        android:textColor="#ffffff"
+        style="@style/boldtext"
+        android:textSize="16dp"
+
+
+        />
+
+
+</RelativeLayout>

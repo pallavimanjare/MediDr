@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.medidr.user.ui.activity.BookAppointment"
+    tools:showIn="@layout/app_bar_book_appointment">
+
+    <com.medidr.user.ui.DesignService.CircularNetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="0dp"
+        />
+
+
+    <TextView
+        android:id="@+id/doctorName"
+        style="@style/bigboldtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="doctor name"
+
+        />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/hospitalName"
+        style="@style/bignormaltext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/doctorName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="hospital name"
+        android:textSize="@dimen/doc_profile_tab" />
+
+
+    <TextView
+        android:id="@+id/errorMsg"
+        style="@style/boldtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hospitalName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000" />
+
+    <EditText
+        android:id="@+id/eddate"
+        style="@style/bignormaltext"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/errorMsg"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/datestyle"
+        android:drawableLeft="@mipmap/book_appointment_prev"
+        android:drawableRight="@mipmap/book_appointment_next"
+
+        android:focusable="false"
+        android:gravity="center"
+        android:hint="Select Date"
+        android:inputType="none"
+        android:textColor="#ffffff"
+        android:textCursorDrawable="@drawable/cursorcolor">
+
+        <requestFocus />
+    </EditText>
+
+    <ExpandableListView
+        android:id="@+id/lvExp"
+        style="@style/bignormaltext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/eddate"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="180dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/edPatientName"
+            style="@style/bignormaltext"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lvExp"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@mipmap/appointment_details_patient_name_copy"
+            android:drawablePadding="40dp"
+            android:hint="Patient Name"
+            android:inputType="textAutoComplete"
+            android:maxLength="25"
+            android:textCursorDrawable="@drawable/cursorcolor">
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/edPatientMobile"
+            style="@style/bignormaltext"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edPatientName"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@mipmap/appointment_details_mobile_copy"
+            android:drawablePadding="40dp"
+            android:hint="Mobile"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textCursorDrawable="@drawable/cursorcolor">
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/selectedTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible" />
+        <Button
+            android:id="@+id/btnBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/profile_book_button_style" />
+    </LinearLayout>
+</RelativeLayout>

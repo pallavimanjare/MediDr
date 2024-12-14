@@ -1,0 +1,105 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.medidr.user.ui.fragment.HospitalMapFragment">
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hospitalAddress"
+                android:layout_below="@+id/experience"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawablePadding="20dp"
+                android:drawableLeft="@mipmap/doctor_profile_tab_info_address_icon_copy"
+                style="@style/bignormaltext"
+
+                />
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_below="@+id/hospitalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/distance"
+                    android:layout_marginLeft="20dp"
+                    style="@style/bignormaltext"
+                    android:drawableLeft="@mipmap/doctor_profile_tab_info_distance_icon_copy"
+                    android:drawablePadding="20dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/direction"
+
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="20dp"
+                    style="@style/bignormaltext"
+                    android:textColor="#00608b"
+                    android:drawablePadding="10dp"
+                    android:drawableRight="@mipmap/appointment_details_directions_copy"
+                    />
+               <!-- <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:id="@+id/directionIcon"
+                    android:layout_alignParentRight="true"
+                    android:background="@mipmap/appointment_details_directions_copy"
+                    android:layout_marginRight="20dp"
+                    />
+-->
+            </LinearLayout>
+
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_centerInParent="true"
+                android:background="#bfbfbf"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:layout_below="@+id/linear1"
+                />
+
+
+            <com.google.android.gms.maps.MapView
+                android:id="@+id/mapview"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_below="@+id/divider"
+                />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_edit_profile"
+            android:icon="@mipmap/ic_create_black_24dp"
+
+            android:title="Edit User Profile" />
+        <item
+            android:id="@+id/nav_appointment_list"
+            android:icon="@mipmap/calendar_icon"
+            android:title="My Appointments" />
+        <item
+            android:id="@+id/nav_suggestion"
+            android:icon="@mipmap/ic_question_answer_black_24dp"
+            android:title="Suggestion" />
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@mipmap/ic_help_black_24dp"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@mipmap/ic_info_black_24dp"
+            android:title="FAQ" />
+        <item
+            android:id="@+id/nav_signout"
+            android:icon="@mipmap/ic_power_settings_new_black_24dp"
+            android:title="Sign Out" />
+    </group>
+
+
+
+</menu>
